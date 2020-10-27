@@ -44,7 +44,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="t13-oT-JSP"/>
                     </view>
-                    <navigationItem key="navigationItem" title="My fitness Pal v4" id="Pg9-T0-Oj3">
+                    <navigationItem key="navigationItem" title="My fitness Pal v9" id="Pg9-T0-Oj3">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="bM7-C3-Kzn">
                             <connections>
                                 <segue destination="vFc-h1-DL4" kind="show" id="FlE-xu-7uz"/>
