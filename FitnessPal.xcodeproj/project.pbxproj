@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AFFDF1B63817E4D87DB34D8 /* Pods_FitnessPalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C07356DCDF0917FBF124CE /* Pods_FitnessPalTests.framework */; };
+		6554D4371C49F255EA57D4D6 /* Pods_FitnessPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B90F50E16F577EFEA43B7F /* Pods_FitnessPal.framework */; };
 		EC24BD56253A92F400A8E635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24BD55253A92F400A8E635 /* AppDelegate.swift */; };
 		EC24BD58253A92F400A8E635 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24BD57253A92F400A8E635 /* SceneDelegate.swift */; };
 		EC24BD5A253A92F400A8E635 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24BD59253A92F400A8E635 /* HomeViewController.swift */; };
@@ -16,6 +18,7 @@
 		EC24BD6D253A92F500A8E635 /* FitnessPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24BD6C253A92F500A8E635 /* FitnessPalTests.swift */; };
 		EC24BD78253A92F500A8E635 /* FitnessPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24BD77253A92F500A8E635 /* FitnessPalUITests.swift */; };
 		EC24BD86253AA22700A8E635 /* AddWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24BD85253AA22700A8E635 /* AddWorkout.swift */; };
+		FDDA829269FF6101409DCCDD /* Pods_FitnessPal_FitnessPalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38AAFD0AB1FF13311FB19E8F /* Pods_FitnessPal_FitnessPalUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		307D5404FCCB670543D92DB9 /* Pods-FitnessPal-FitnessPalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessPal-FitnessPalUITests.release.xcconfig"; path = "Target Support Files/Pods-FitnessPal-FitnessPalUITests/Pods-FitnessPal-FitnessPalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38AAFD0AB1FF13311FB19E8F /* Pods_FitnessPal_FitnessPalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitnessPal_FitnessPalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77C07356DCDF0917FBF124CE /* Pods_FitnessPalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitnessPalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		918AFA7B2A950BD379260096 /* Pods-FitnessPal-FitnessPalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessPal-FitnessPalUITests.debug.xcconfig"; path = "Target Support Files/Pods-FitnessPal-FitnessPalUITests/Pods-FitnessPal-FitnessPalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA42D86632DF875D6ECF0453 /* Pods-FitnessPalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessPalTests.debug.xcconfig"; path = "Target Support Files/Pods-FitnessPalTests/Pods-FitnessPalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC7F76AFDE4E70BB73A1F267 /* Pods-FitnessPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessPal.debug.xcconfig"; path = "Target Support Files/Pods-FitnessPal/Pods-FitnessPal.debug.xcconfig"; sourceTree = "<group>"; };
+		CD0334274D67344A003E9A1B /* Pods-FitnessPalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessPalTests.release.xcconfig"; path = "Target Support Files/Pods-FitnessPalTests/Pods-FitnessPalTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF43DBFAD87C0F6C0B89BC57 /* Pods-FitnessPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnessPal.release.xcconfig"; path = "Target Support Files/Pods-FitnessPal/Pods-FitnessPal.release.xcconfig"; sourceTree = "<group>"; };
+		E7B90F50E16F577EFEA43B7F /* Pods_FitnessPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitnessPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC24BD52253A92F400A8E635 /* FitnessPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC24BD55253A92F400A8E635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC24BD57253A92F400A8E635 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6554D4371C49F255EA57D4D6 /* Pods_FitnessPal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFFDF1B63817E4D87DB34D8 /* Pods_FitnessPalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDA829269FF6101409DCCDD /* Pods_FitnessPal_FitnessPalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CDEF6E4B1C1EFD05DD9A00A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC7F76AFDE4E70BB73A1F267 /* Pods-FitnessPal.debug.xcconfig */,
+				CF43DBFAD87C0F6C0B89BC57 /* Pods-FitnessPal.release.xcconfig */,
+				918AFA7B2A950BD379260096 /* Pods-FitnessPal-FitnessPalUITests.debug.xcconfig */,
+				307D5404FCCB670543D92DB9 /* Pods-FitnessPal-FitnessPalUITests.release.xcconfig */,
+				AA42D86632DF875D6ECF0453 /* Pods-FitnessPalTests.debug.xcconfig */,
+				CD0334274D67344A003E9A1B /* Pods-FitnessPalTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9206C158BF734CE986F52807 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B90F50E16F577EFEA43B7F /* Pods_FitnessPal.framework */,
+				38AAFD0AB1FF13311FB19E8F /* Pods_FitnessPal_FitnessPalUITests.framework */,
+				77C07356DCDF0917FBF124CE /* Pods_FitnessPalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC24BD49253A92F400A8E635 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				EC24BD6B253A92F500A8E635 /* FitnessPalTests */,
 				EC24BD76253A92F500A8E635 /* FitnessPalUITests */,
 				EC24BD53253A92F400A8E635 /* Products */,
+				4CDEF6E4B1C1EFD05DD9A00A /* Pods */,
+				9206C158BF734CE986F52807 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC24BD7C253A92F500A8E635 /* Build configuration list for PBXNativeTarget "FitnessPal" */;
 			buildPhases = (
+				09DDCA47467F828013EA7004 /* [CP] Check Pods Manifest.lock */,
 				EC24BD4E253A92F400A8E635 /* Sources */,
 				EC24BD4F253A92F400A8E635 /* Frameworks */,
 				EC24BD50253A92F400A8E635 /* Resources */,
+				9720061F0AFBC09B573FB2A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC24BD7F253A92F500A8E635 /* Build configuration list for PBXNativeTarget "FitnessPalTests" */;
 			buildPhases = (
+				C427AE168452763EE2295B77 /* [CP] Check Pods Manifest.lock */,
 				EC24BD64253A92F500A8E635 /* Sources */,
 				EC24BD65253A92F500A8E635 /* Frameworks */,
 				EC24BD66253A92F500A8E635 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC24BD82253A92F500A8E635 /* Build configuration list for PBXNativeTarget "FitnessPalUITests" */;
 			buildPhases = (
+				90B28D134D46E226BEF0329D /* [CP] Check Pods Manifest.lock */,
 				EC24BD6F253A92F500A8E635 /* Sources */,
 				EC24BD70253A92F500A8E635 /* Frameworks */,
 				EC24BD71253A92F500A8E635 /* Resources */,
+				444A212B806A689047FF07F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09DDCA47467F828013EA7004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitnessPal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		444A212B806A689047FF07F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitnessPal-FitnessPalUITests/Pods-FitnessPal-FitnessPalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitnessPal-FitnessPalUITests/Pods-FitnessPal-FitnessPalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitnessPal-FitnessPalUITests/Pods-FitnessPal-FitnessPalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90B28D134D46E226BEF0329D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitnessPal-FitnessPalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9720061F0AFBC09B573FB2A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitnessPal/Pods-FitnessPal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FitnessPal/Pods-FitnessPal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FitnessPal/Pods-FitnessPal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C427AE168452763EE2295B77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitnessPalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC24BD4E253A92F400A8E635 /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		EC24BD7D253A92F500A8E635 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7F76AFDE4E70BB73A1F267 /* Pods-FitnessPal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +604,7 @@
 		};
 		EC24BD7E253A92F500A8E635 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF43DBFAD87C0F6C0B89BC57 /* Pods-FitnessPal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +623,7 @@
 		};
 		EC24BD80253A92F500A8E635 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA42D86632DF875D6ECF0453 /* Pods-FitnessPalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +646,7 @@
 		};
 		EC24BD81253A92F500A8E635 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0334274D67344A003E9A1B /* Pods-FitnessPalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +669,7 @@
 		};
 		EC24BD83253A92F500A8E635 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918AFA7B2A950BD379260096 /* Pods-FitnessPal-FitnessPalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +690,7 @@
 		};
 		EC24BD84253A92F500A8E635 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307D5404FCCB670543D92DB9 /* Pods-FitnessPal-FitnessPalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -44,7 +44,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="t13-oT-JSP"/>
                     </view>
-                    <navigationItem key="navigationItem" title="My fitness Pal v9" id="Pg9-T0-Oj3">
+                    <navigationItem key="navigationItem" title="My fitness Pal v4" id="Pg9-T0-Oj3">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="bM7-C3-Kzn">
                             <connections>
                                 <segue destination="vFc-h1-DL4" kind="show" id="FlE-xu-7uz"/>
@@ -84,6 +84,16 @@
                     <view key="view" contentMode="scaleToFill" id="Mad-Hn-CZC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZB-wS-DrB">
+                                <rect key="frame" x="164" y="228" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="actshowpicker:" destination="vFc-h1-DL4" eventType="touchUpInside" id="tb4-LY-guH"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="94g-dS-I8l"/>
                     </view>
