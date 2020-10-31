@@ -11,7 +11,7 @@ import ActionSheetPicker_3_0
 class AddWorkout: UIViewController {
     override func viewDidLoad() {
           super.viewDidLoad()
-            title = "Add Workou"
+            title = "Add Workout"
           // Do any additional setup after loading the view.
       }
     
