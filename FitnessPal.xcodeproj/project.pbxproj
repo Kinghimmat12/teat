@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -93,6 +93,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1623E410255D0BD200CA27E0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		4CDEF6E4B1C1EFD05DD9A00A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +110,6 @@
 				AA42D86632DF875D6ECF0453 /* Pods-FitnessPalTests.debug.xcconfig */,
 				CD0334274D67344A003E9A1B /* Pods-FitnessPalTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,6 +152,7 @@
 				EC24BD57253A92F400A8E635 /* SceneDelegate.swift */,
 				EC24BD59253A92F400A8E635 /* HomeViewController.swift */,
 				EC24BD85253AA22700A8E635 /* AddWorkout.swift */,
+				1623E410255D0BD200CA27E0 /* New Group */,
 				EC24BD5B253A92F400A8E635 /* Main.storyboard */,
 				EC24BD5E253A92F500A8E635 /* Assets.xcassets */,
 				EC24BD60253A92F500A8E635 /* LaunchScreen.storyboard */,
