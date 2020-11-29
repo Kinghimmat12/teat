@@ -11,7 +11,6 @@
 		6554D4371C49F255EA57D4D6 /* Pods_FitnessPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B90F50E16F577EFEA43B7F /* Pods_FitnessPal.framework */; };
 		EC24BD56253A92F400A8E635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24BD55253A92F400A8E635 /* AppDelegate.swift */; };
 		EC24BD58253A92F400A8E635 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24BD57253A92F400A8E635 /* SceneDelegate.swift */; };
-		EC24BD5A253A92F400A8E635 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC24BD59253A92F400A8E635 /* HomeViewController.swift */; };
 		EC24BD5D253A92F400A8E635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC24BD5B253A92F400A8E635 /* Main.storyboard */; };
 		EC24BD5F253A92F500A8E635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC24BD5E253A92F500A8E635 /* Assets.xcassets */; };
 		EC24BD62253A92F500A8E635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC24BD60253A92F500A8E635 /* LaunchScreen.storyboard */; };
@@ -51,7 +50,6 @@
 		EC24BD52253A92F400A8E635 /* FitnessPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC24BD55253A92F400A8E635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC24BD57253A92F400A8E635 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC24BD59253A92F400A8E635 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EC24BD5C253A92F400A8E635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC24BD5E253A92F500A8E635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC24BD61253A92F500A8E635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 			children = (
 				EC24BD55253A92F400A8E635 /* AppDelegate.swift */,
 				EC24BD57253A92F400A8E635 /* SceneDelegate.swift */,
-				EC24BD59253A92F400A8E635 /* HomeViewController.swift */,
 				EC24BD85253AA22700A8E635 /* AddWorkout.swift */,
 				1623E410255D0BD200CA27E0 /* New Group */,
 				EC24BD5B253A92F400A8E635 /* Main.storyboard */,
@@ -418,7 +415,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC24BD5A253A92F400A8E635 /* HomeViewController.swift in Sources */,
 				EC24BD56253A92F400A8E635 /* AppDelegate.swift in Sources */,
 				EC24BD58253A92F400A8E635 /* SceneDelegate.swift in Sources */,
 				EC24BD86253AA22700A8E635 /* AddWorkout.swift in Sources */,

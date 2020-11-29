@@ -11,6 +11,8 @@ import ActionSheetPicker_3_0
 class AddWorkout: UIViewController {
     var operation:String = "add"
     
+    @IBOutlet weak var textfield2: UITextField!
+    @IBOutlet weak var textfield1: UITextField!
     @IBOutlet weak var lblOperation: UILabel!
     
     @IBOutlet weak var lblResult: UILabel!
@@ -38,20 +40,25 @@ class AddWorkout: UIViewController {
     }
     func perFormOperation() {
         if "\(operation)" == "add" {
-            self.lblResult.text = "\(2+2)"
+            self.lblResult.text = "\(Int(textfield1.text!)!+Int(textfield2.text!)!)"
         }else  if "\(operation)" == "sub" {
-            self.lblResult.text = "\(2-2)"
+            self.lblResult.text = "\(9-9)"
         }else if "\(operation)" == "div"{
-            self.lblResult.text = "\(2/2)"
+            self.lblResult.text = "\(9/9)"
         }else if "\(operation)" == "mul"{
-            self.lblResult.text = "\(2*2)"
+            self.lblResult.text = "\(9*9)"
         }
         
     }
+    
+    
+    
+    
 
         
     
 
 
-}
 
+
+}
