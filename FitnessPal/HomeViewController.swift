@@ -15,9 +15,9 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let alert = UIAlertController(title: nil, message: "Click below to set up account", preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "Add", style: UIAlertAction.Style.default, handler: nil))
-        self.present(alert, animated: true, completion: nil)
+//        let alert = UIAlertController(title: nil, message: "Click below to set up account", preferredStyle: UIAlertController.Style.alert)
+//        alert.addAction(UIAlertAction(title: "Add", style: UIAlertAction.Style.default, handler: nil))
+//        self.present(alert, animated: true, completion: nil)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -28,6 +28,7 @@ class AddWorkout: UIViewController {
             print(index)
             self.operation = "\(value!)"
             self.perFormOperation()
+            
 
             
             
