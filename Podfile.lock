@@ -1,0 +1,20 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.7.1)
+  - ReachabilitySwift (5.0.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - ReachabilitySwift
+
+SPEC REPOS:
+  trunk:
+    - ActionSheetPicker-3.0
+    - ReachabilitySwift
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 36da254b97a09ff89679ecb8b8510bd3e5bdc773
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+
+PODFILE CHECKSUM: 6c3ead8961988c01739a0f3451551c5c8a953b05
+
+COCOAPODS: 1.10.0

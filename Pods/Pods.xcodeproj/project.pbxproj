@@ -1,0 +1,1249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E6FF9EF68F8F4DF9893A66DFD0FF00 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BD7D28505116D8C9A4230F991813C2 /* ActionSheetCustomPicker.m */; };
+		01ED7401731A6D64E2EBDB0C9BA10D78 /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086088501CA3D88EE17170E5E2F1B3A /* ActionSheetMultipleStringPicker.m */; };
+		09944176280C980EB49784DBCA380462 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B821EBF1796C119449BB398DA68368 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14F561BF016628D16C6D89E8CE83E4C8 /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F9D6CB0A5FB023E7120A6472121297 /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18947A145498DC3BEE3E76B50B004001 /* Pods-FitnessPalTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB11C8EE63B2C2DF99392F60D4F5A6EC /* Pods-FitnessPalTests-dummy.m */; };
+		1C866AB731B7D239DB19293745C30110 /* Pods-FitnessPal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE68949F0EB6FA8E1B018476A7A2C747 /* Pods-FitnessPal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		294871A7129CE743BB3A1A37A5909905 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BF910468691A673B2B5E291E55228031 /* ActionSheetDatePicker.m */; };
+		2A4972C7ADE3DFAAE219A09318FC3F14 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CAD748495956076AE47965B386CA6C /* ActionSheetStringPicker.m */; };
+		2CA85AFA551AD973548CFAAD442CBAE4 /* Pods-FitnessPal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C10D669E3D5876964CEE14BCDAB8A /* Pods-FitnessPal-dummy.m */; };
+		41D299C22C18A78D39EB788D3311974A /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4987274720120CA72B1261A651F27B40 /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4627935AED721C697210046C88CA8918 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0871171D3BAB0DB93B9F22EDDC578B4A /* SystemConfiguration.framework */; };
+		4BB9C836A68DC72EAADB50AC55C99D42 /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C741D4CDFA849F5FB6D40919DED3AC /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51204A385DF5C502BAA27ECE86719C7D /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E9C64AFA211B80D773D665663B4F0358 /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51E6D6EC168CEA630E9150DE56048363 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA698B8C06080F40FB25EA475A7A3F92 /* CoreTelephony.framework */; };
+		522FB484F79064A183754528ED787059 /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A54092B4CCEACB3047279CF1E8CE94 /* DistancePickerView.m */; };
+		58CF9A606A3CE3F0CC0CA8A42C4C77E6 /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = A863A4BB98B3565E357A0A56B325F23F /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59789CE08DF6F1682B65A0DB845F18BE /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54FABB6D254B3B71AB37AF8E0C40E3D6 /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E2E7D406AE90AD8C485F9546A12B9E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB63E421DA2823B9C7BBB39243145D2 /* UIKit.framework */; };
+		60205F6E5E2C9FB6F7D2DF3FFC79ABB4 /* Pods-FitnessPal-FitnessPalUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AED0269873AB7AD89604F5B20510D93 /* Pods-FitnessPal-FitnessPalUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65303FAC78F15F3CC8F26B67E550775E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */; };
+		70D02B64010EC36D3ED0D81529E21122 /* Pods-FitnessPal-FitnessPalUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F141A6E5B9A52ACEC93F43FDF1D7BA /* Pods-FitnessPal-FitnessPalUITests-dummy.m */; };
+		7360CEDAB021006D16225352EFE233C3 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF27D57F769F3B0E1AC0A85162984E /* AbstractActionSheetPicker.m */; };
+		801C634F0F633E92BDDD77AEDC52E5AA /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2DFF572DF99E7FE6EBEBE3A148B75A /* ActionSheetDistancePicker.m */; };
+		8C0467D6F35F276E1A62D7C28BD95E46 /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D27E7D22A84863510E76CA22AA952877 /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B6F89879F8B4241403D3ED15BE2C46 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E1E765E8C197A3E6783F715DEA8136 /* SWActionSheet.m */; };
+		953FE4773E3ECA04DFBD610FDF77B48B /* Pods-FitnessPalTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E89E970FC8E9E517B82622D046BE1C /* Pods-FitnessPalTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A10C64E4402E96AA72E98D92FC06B334 /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = EFFF5A280D99514A17DCA21C2A91069C /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1626C63DC98ECE49ADCE50F5C7F74BF /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C97A1E607C061F4557E663C7D5BA02 /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A233FC9783903408A8F2A620895DB36D /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6388BCE15BF4EBE408BEF8B4B132B293 /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC96F44279E61358242F26840D4853F0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AAA208CF24C42D7F98FAA4807EF5E4 /* Reachability.swift */; };
+		BD7FB260F9823A15C481A5B35C1636CC /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6340E08350071CFFBFE9445E314295DA /* ActionSheetLocalePicker.m */; };
+		C31A1EC6B8C14C595A14E46A9C8A34DB /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B0C775AFE58C920A3C7B1C03698D5E /* ActionSheetPicker-3.0-dummy.m */; };
+		C95D091FC52554ECE223F92C4A5BCBF6 /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF59A3E85E084B6E4FBF778027B0374 /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC5D35E46E8DEDEC702246B26E7AFBF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */; };
+		D6CCC4F15CBFBD47DE20A6FBF2E73C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */; };
+		DE71CAE2667DC2E7A4C5FDFA762BC531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */; };
+		E5F6ACACDF29D937A21E7DEC85A13E3E /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F8BF3FDF282DC7D83768A8BD952DC9 /* ReachabilitySwift-dummy.m */; };
+		F5EEA46FA461EBE1BA796BBECDECCCC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */; };
+		FC959A2B60814107144EA59FE92D3748 /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F56EC942EA7734A4D7E3407421583E /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D1AD233E9A8DC9D553D136E1F8DBBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43B25DDF20FCB9228471F8F5135C866;
+			remoteInfo = "ActionSheetPicker-3.0";
+		};
+		58F09B5D455DB779FD97E8E9A989E04B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29718852DEA326A56295F65FA0002CC8;
+			remoteInfo = "Pods-FitnessPal";
+		};
+		B20D791D51DE594CC2D9CDDC204CB1AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		B820C7828CC150A3D474BC547CF638B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		CAC6F4AA11AF3FB83054D55F9E0472CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A43B25DDF20FCB9228471F8F5135C866;
+			remoteInfo = "ActionSheetPicker-3.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C741D4CDFA849F5FB6D40919DED3AC /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		0871171D3BAB0DB93B9F22EDDC578B4A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		09E1E765E8C197A3E6783F715DEA8136 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		0AED0269873AB7AD89604F5B20510D93 /* Pods-FitnessPal-FitnessPalUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitnessPal-FitnessPalUITests-umbrella.h"; sourceTree = "<group>"; };
+		14E89E970FC8E9E517B82622D046BE1C /* Pods-FitnessPalTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitnessPalTests-umbrella.h"; sourceTree = "<group>"; };
+		18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		19451272D0026CD9AEC3521857271549 /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		1BE90164A690B6D8D2355D9963E8EC59 /* Pods_FitnessPal_FitnessPalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FitnessPal_FitnessPalUITests.framework; path = "Pods-FitnessPal-FitnessPalUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25CAD748495956076AE47965B386CA6C /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		291990E8DC63D698DCCA9487E6D444C9 /* Pods-FitnessPal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FitnessPal.modulemap"; sourceTree = "<group>"; };
+		33C97A1E607C061F4557E663C7D5BA02 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		38AF27D57F769F3B0E1AC0A85162984E /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		39C09BB47E09BB639D35DADC4B33325B /* Pods-FitnessPal-FitnessPalUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitnessPal-FitnessPalUITests-frameworks.sh"; sourceTree = "<group>"; };
+		452910E2A216838E5CC9A8D0D8948E29 /* Pods-FitnessPalTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FitnessPalTests.modulemap"; sourceTree = "<group>"; };
+		45CFE732868ED016E0E1217A53A1A751 /* Pods-FitnessPal-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FitnessPal-frameworks.sh"; sourceTree = "<group>"; };
+		4987274720120CA72B1261A651F27B40 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		4AA101EB863089FE24BFBE94D9081842 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		4E392C8117D2D191595DEB283FF2EE54 /* ActionSheetPicker-3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.debug.xcconfig"; sourceTree = "<group>"; };
+		5167D173B7DF66090D9BB21E1CE8E617 /* ActionSheetPicker-3.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ActionSheetPicker-3.0-Info.plist"; sourceTree = "<group>"; };
+		54FABB6D254B3B71AB37AF8E0C40E3D6 /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		615498C0421C0FAAAA6F3D96EFF684E0 /* Pods-FitnessPalTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitnessPalTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6340E08350071CFFBFE9445E314295DA /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		6388BCE15BF4EBE408BEF8B4B132B293 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		675B89A4CA11F3DE4CCB05C28271A2F3 /* Pods-FitnessPal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitnessPal-Info.plist"; sourceTree = "<group>"; };
+		6AB71FD8A444C2E21D5ABCC357CC2C01 /* Pods-FitnessPalTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FitnessPalTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70929C8BA18CB608DBA11600D9DC6D6F /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		7471C32DF498B59EC3D35305F315E3C0 /* Pods-FitnessPal-FitnessPalUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitnessPal-FitnessPalUITests-Info.plist"; sourceTree = "<group>"; };
+		77BD7D28505116D8C9A4230F991813C2 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		7B8010231607FCEF9C5B1954D3560D0A /* Pods-FitnessPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitnessPal.release.xcconfig"; sourceTree = "<group>"; };
+		7B9928B16F9FC01E555FB8C2AABDA6A9 /* ReachabilitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.release.xcconfig; sourceTree = "<group>"; };
+		7E01BB6AF957EC8B6ABFA26DD1BF85BB /* Pods-FitnessPal-FitnessPalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitnessPal-FitnessPalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80F141A6E5B9A52ACEC93F43FDF1D7BA /* Pods-FitnessPal-FitnessPalUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitnessPal-FitnessPalUITests-dummy.m"; sourceTree = "<group>"; };
+		81F9D6CB0A5FB023E7120A6472121297 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		82A54092B4CCEACB3047279CF1E8CE94 /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/DistancePickerView.m; sourceTree = "<group>"; };
+		85F8BF3FDF282DC7D83768A8BD952DC9 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		9086088501CA3D88EE17170E5E2F1B3A /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		90AAA208CF24C42D7F98FAA4807EF5E4 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		93A54227912DDCCEF75D46BFAA712E2E /* Pods_FitnessPalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FitnessPalTests.framework; path = "Pods-FitnessPalTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5CFC4F7A9AF071D220713AFD0AFE7D /* ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3A109A84174130C441D9D37F99A2D89 /* Pods-FitnessPalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitnessPalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A863A4BB98B3565E357A0A56B325F23F /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		A9FBE2AC6538ED1A6741C448D8FC4890 /* Pods-FitnessPalTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitnessPalTests-Info.plist"; sourceTree = "<group>"; };
+		AC2DFF572DF99E7FE6EBEBE3A148B75A /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		AE68949F0EB6FA8E1B018476A7A2C747 /* Pods-FitnessPal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FitnessPal-umbrella.h"; sourceTree = "<group>"; };
+		AF2021982D0962C2DFCAE0B205BD9429 /* Pods-FitnessPal-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FitnessPal-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4BD8A7A654D62547A9177AEB84831A1 /* Pods-FitnessPal-FitnessPalUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FitnessPal-FitnessPalUITests.modulemap"; sourceTree = "<group>"; };
+		B7B821EBF1796C119449BB398DA68368 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		BB11C8EE63B2C2DF99392F60D4F5A6EC /* Pods-FitnessPalTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitnessPalTests-dummy.m"; sourceTree = "<group>"; };
+		BF910468691A673B2B5E291E55228031 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		C765BE81E6C00ED40645AAD85B68AD2F /* Pods-FitnessPal-FitnessPalUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitnessPal-FitnessPalUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C86248738937DA0421FB1A0A642A83DF /* Pods-FitnessPalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitnessPalTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA698B8C06080F40FB25EA475A7A3F92 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		CC9C10D669E3D5876964CEE14BCDAB8A /* Pods-FitnessPal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FitnessPal-dummy.m"; sourceTree = "<group>"; };
+		D27E7D22A84863510E76CA22AA952877 /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		D2865F7A89EC8E873EF1029FC55D8E43 /* Pods-FitnessPal-FitnessPalUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FitnessPal-FitnessPalUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D288EF8718E58942F43DCD0C76CEE1DA /* Pods-FitnessPal-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FitnessPal-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4F56EC942EA7734A4D7E3407421583E /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionSheetPicker_3_0.framework; path = "ActionSheetPicker-3.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B0C775AFE58C920A3C7B1C03698D5E /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		DAB63E421DA2823B9C7BBB39243145D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DD04B54F79E12B63EFED34D89F6E98C5 /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		E2AC855173E83AB779902DAEA3F96F1F /* Pods-FitnessPal-FitnessPalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitnessPal-FitnessPalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E39BF2918D67B64553ECB0013084221A /* ActionSheetPicker-3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.release.xcconfig"; sourceTree = "<group>"; };
+		E3CBF723D45CF04E6DFB2EDE58270987 /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
+		E7992470149FAEB59F37CCBE0BE1115C /* Pods_FitnessPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FitnessPal.framework; path = "Pods-FitnessPal.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C64AFA211B80D773D665663B4F0358 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		EFFF5A280D99514A17DCA21C2A91069C /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		FA1E64028ED3925DCA26DC147895737B /* Pods-FitnessPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FitnessPal.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF59A3E85E084B6E4FBF778027B0374 /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = CoreActionSheetPicker/CoreActionSheetPicker/Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02EB327C437A2AC8315D7ECD370701A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5D35E46E8DEDEC702246B26E7AFBF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441E0FD5D26D3D2B2FD00C3C99ED7384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CCC4F15CBFBD47DE20A6FBF2E73C9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB46C5BAA16D47CA55D00459B31D084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5EEA46FA461EBE1BA796BBECDECCCC2 /* Foundation.framework in Frameworks */,
+				5E2E7D406AE90AD8C485F9546A12B9E2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A37A51219ED31062DE51A3E139BF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E6D6EC168CEA630E9150DE56048363 /* CoreTelephony.framework in Frameworks */,
+				65303FAC78F15F3CC8F26B67E550775E /* Foundation.framework in Frameworks */,
+				4627935AED721C697210046C88CA8918 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0990B71B1B36B180C4CF634BB0B6B5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE71CAE2667DC2E7A4C5FDFA762BC531 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D2F2742D1F36ADFD91D4A4B98B5BC40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */,
+				E7992470149FAEB59F37CCBE0BE1115C /* Pods_FitnessPal.framework */,
+				1BE90164A690B6D8D2355D9963E8EC59 /* Pods_FitnessPal_FitnessPalUITests.framework */,
+				93A54227912DDCCEF75D46BFAA712E2E /* Pods_FitnessPalTests.framework */,
+				21B03CA622E690725A6626C088E1D09F /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3413BAA7C77C357FC81ADFD276ABAB60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63D408FEA727FD325E9288AA3827D8ED /* ActionSheetPicker-3.0 */,
+				F77570EDA421820073ABB6ED53973A15 /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63D408FEA727FD325E9288AA3827D8ED /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				33C97A1E607C061F4557E663C7D5BA02 /* AbstractActionSheetPicker.h */,
+				38AF27D57F769F3B0E1AC0A85162984E /* AbstractActionSheetPicker.m */,
+				D4F56EC942EA7734A4D7E3407421583E /* ActionSheetCustomPicker.h */,
+				77BD7D28505116D8C9A4230F991813C2 /* ActionSheetCustomPicker.m */,
+				01C741D4CDFA849F5FB6D40919DED3AC /* ActionSheetCustomPickerDelegate.h */,
+				E9C64AFA211B80D773D665663B4F0358 /* ActionSheetDatePicker.h */,
+				BF910468691A673B2B5E291E55228031 /* ActionSheetDatePicker.m */,
+				4987274720120CA72B1261A651F27B40 /* ActionSheetDistancePicker.h */,
+				AC2DFF572DF99E7FE6EBEBE3A148B75A /* ActionSheetDistancePicker.m */,
+				EFFF5A280D99514A17DCA21C2A91069C /* ActionSheetLocalePicker.h */,
+				6340E08350071CFFBFE9445E314295DA /* ActionSheetLocalePicker.m */,
+				6388BCE15BF4EBE408BEF8B4B132B293 /* ActionSheetMultipleStringPicker.h */,
+				9086088501CA3D88EE17170E5E2F1B3A /* ActionSheetMultipleStringPicker.m */,
+				81F9D6CB0A5FB023E7120A6472121297 /* ActionSheetPicker.h */,
+				A863A4BB98B3565E357A0A56B325F23F /* ActionSheetStringPicker.h */,
+				25CAD748495956076AE47965B386CA6C /* ActionSheetStringPicker.m */,
+				D27E7D22A84863510E76CA22AA952877 /* DistancePickerView.h */,
+				82A54092B4CCEACB3047279CF1E8CE94 /* DistancePickerView.m */,
+				FAF59A3E85E084B6E4FBF778027B0374 /* SWActionSheet.h */,
+				09E1E765E8C197A3E6783F715DEA8136 /* SWActionSheet.m */,
+				98436F5AF9C328DB258F2F51A281B595 /* Support Files */,
+			);
+			name = "ActionSheetPicker-3.0";
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		70F64E981778852F136F38610BCD3A9C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA698B8C06080F40FB25EA475A7A3F92 /* CoreTelephony.framework */,
+				18C0A7D09CBAB95366C3FCC44FFDC7A1 /* Foundation.framework */,
+				0871171D3BAB0DB93B9F22EDDC578B4A /* SystemConfiguration.framework */,
+				DAB63E421DA2823B9C7BBB39243145D2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8D384CB6295413527AD0B1B77643EB3B /* Pods-FitnessPal-FitnessPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4BD8A7A654D62547A9177AEB84831A1 /* Pods-FitnessPal-FitnessPalUITests.modulemap */,
+				D2865F7A89EC8E873EF1029FC55D8E43 /* Pods-FitnessPal-FitnessPalUITests-acknowledgements.markdown */,
+				C765BE81E6C00ED40645AAD85B68AD2F /* Pods-FitnessPal-FitnessPalUITests-acknowledgements.plist */,
+				80F141A6E5B9A52ACEC93F43FDF1D7BA /* Pods-FitnessPal-FitnessPalUITests-dummy.m */,
+				39C09BB47E09BB639D35DADC4B33325B /* Pods-FitnessPal-FitnessPalUITests-frameworks.sh */,
+				7471C32DF498B59EC3D35305F315E3C0 /* Pods-FitnessPal-FitnessPalUITests-Info.plist */,
+				0AED0269873AB7AD89604F5B20510D93 /* Pods-FitnessPal-FitnessPalUITests-umbrella.h */,
+				7E01BB6AF957EC8B6ABFA26DD1BF85BB /* Pods-FitnessPal-FitnessPalUITests.debug.xcconfig */,
+				E2AC855173E83AB779902DAEA3F96F1F /* Pods-FitnessPal-FitnessPalUITests.release.xcconfig */,
+			);
+			name = "Pods-FitnessPal-FitnessPalUITests";
+			path = "Target Support Files/Pods-FitnessPal-FitnessPalUITests";
+			sourceTree = "<group>";
+		};
+		98436F5AF9C328DB258F2F51A281B595 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3CBF723D45CF04E6DFB2EDE58270987 /* ActionSheetPicker-3.0.modulemap */,
+				D9B0C775AFE58C920A3C7B1C03698D5E /* ActionSheetPicker-3.0-dummy.m */,
+				5167D173B7DF66090D9BB21E1CE8E617 /* ActionSheetPicker-3.0-Info.plist */,
+				19451272D0026CD9AEC3521857271549 /* ActionSheetPicker-3.0-prefix.pch */,
+				54FABB6D254B3B71AB37AF8E0C40E3D6 /* ActionSheetPicker-3.0-umbrella.h */,
+				4E392C8117D2D191595DEB283FF2EE54 /* ActionSheetPicker-3.0.debug.xcconfig */,
+				E39BF2918D67B64553ECB0013084221A /* ActionSheetPicker-3.0.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		A5F7C0B9A862455A246E3353EE5625E1 /* Pods-FitnessPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				452910E2A216838E5CC9A8D0D8948E29 /* Pods-FitnessPalTests.modulemap */,
+				6AB71FD8A444C2E21D5ABCC357CC2C01 /* Pods-FitnessPalTests-acknowledgements.markdown */,
+				615498C0421C0FAAAA6F3D96EFF684E0 /* Pods-FitnessPalTests-acknowledgements.plist */,
+				BB11C8EE63B2C2DF99392F60D4F5A6EC /* Pods-FitnessPalTests-dummy.m */,
+				A9FBE2AC6538ED1A6741C448D8FC4890 /* Pods-FitnessPalTests-Info.plist */,
+				14E89E970FC8E9E517B82622D046BE1C /* Pods-FitnessPalTests-umbrella.h */,
+				A3A109A84174130C441D9D37F99A2D89 /* Pods-FitnessPalTests.debug.xcconfig */,
+				C86248738937DA0421FB1A0A642A83DF /* Pods-FitnessPalTests.release.xcconfig */,
+			);
+			name = "Pods-FitnessPalTests";
+			path = "Target Support Files/Pods-FitnessPalTests";
+			sourceTree = "<group>";
+		};
+		A84C7BECA578A56A0C80A754237E5D2F /* Pods-FitnessPal */ = {
+			isa = PBXGroup;
+			children = (
+				291990E8DC63D698DCCA9487E6D444C9 /* Pods-FitnessPal.modulemap */,
+				AF2021982D0962C2DFCAE0B205BD9429 /* Pods-FitnessPal-acknowledgements.markdown */,
+				D288EF8718E58942F43DCD0C76CEE1DA /* Pods-FitnessPal-acknowledgements.plist */,
+				CC9C10D669E3D5876964CEE14BCDAB8A /* Pods-FitnessPal-dummy.m */,
+				45CFE732868ED016E0E1217A53A1A751 /* Pods-FitnessPal-frameworks.sh */,
+				675B89A4CA11F3DE4CCB05C28271A2F3 /* Pods-FitnessPal-Info.plist */,
+				AE68949F0EB6FA8E1B018476A7A2C747 /* Pods-FitnessPal-umbrella.h */,
+				FA1E64028ED3925DCA26DC147895737B /* Pods-FitnessPal.debug.xcconfig */,
+				7B8010231607FCEF9C5B1954D3560D0A /* Pods-FitnessPal.release.xcconfig */,
+			);
+			name = "Pods-FitnessPal";
+			path = "Target Support Files/Pods-FitnessPal";
+			sourceTree = "<group>";
+		};
+		AD4F09CB87669A98D91198FB13EC77B3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A84C7BECA578A56A0C80A754237E5D2F /* Pods-FitnessPal */,
+				8D384CB6295413527AD0B1B77643EB3B /* Pods-FitnessPal-FitnessPalUITests */,
+				A5F7C0B9A862455A246E3353EE5625E1 /* Pods-FitnessPalTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70F64E981778852F136F38610BCD3A9C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB87010A506505AA36A64737B76FBB5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AA101EB863089FE24BFBE94D9081842 /* ReachabilitySwift.modulemap */,
+				85F8BF3FDF282DC7D83768A8BD952DC9 /* ReachabilitySwift-dummy.m */,
+				DD04B54F79E12B63EFED34D89F6E98C5 /* ReachabilitySwift-Info.plist */,
+				70929C8BA18CB608DBA11600D9DC6D6F /* ReachabilitySwift-prefix.pch */,
+				B7B821EBF1796C119449BB398DA68368 /* ReachabilitySwift-umbrella.h */,
+				9D5CFC4F7A9AF071D220713AFD0AFE7D /* ReachabilitySwift.debug.xcconfig */,
+				7B9928B16F9FC01E555FB8C2AABDA6A9 /* ReachabilitySwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				3413BAA7C77C357FC81ADFD276ABAB60 /* Pods */,
+				1D2F2742D1F36ADFD91D4A4B98B5BC40 /* Products */,
+				AD4F09CB87669A98D91198FB13EC77B3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F77570EDA421820073ABB6ED53973A15 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				90AAA208CF24C42D7F98FAA4807EF5E4 /* Reachability.swift */,
+				CB87010A506505AA36A64737B76FBB5F /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09F7B7D04C454C16C0015640CF269F7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09944176280C980EB49784DBCA380462 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBA6CF6A0B119BED887742E8FBFD299 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C866AB731B7D239DB19293745C30110 /* Pods-FitnessPal-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FD3F9C07B210AF7AB0771711FF6E2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60205F6E5E2C9FB6F7D2DF3FFC79ABB4 /* Pods-FitnessPal-FitnessPalUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E809FFA56E46CFB0FDA42CDDBFF3D9F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953FE4773E3ECA04DFBD610FDF77B48B /* Pods-FitnessPalTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F797236E9943400DC9B18DA5F8395299 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1626C63DC98ECE49ADCE50F5C7F74BF /* AbstractActionSheetPicker.h in Headers */,
+				FC959A2B60814107144EA59FE92D3748 /* ActionSheetCustomPicker.h in Headers */,
+				4BB9C836A68DC72EAADB50AC55C99D42 /* ActionSheetCustomPickerDelegate.h in Headers */,
+				51204A385DF5C502BAA27ECE86719C7D /* ActionSheetDatePicker.h in Headers */,
+				41D299C22C18A78D39EB788D3311974A /* ActionSheetDistancePicker.h in Headers */,
+				A10C64E4402E96AA72E98D92FC06B334 /* ActionSheetLocalePicker.h in Headers */,
+				A233FC9783903408A8F2A620895DB36D /* ActionSheetMultipleStringPicker.h in Headers */,
+				59789CE08DF6F1682B65A0DB845F18BE /* ActionSheetPicker-3.0-umbrella.h in Headers */,
+				14F561BF016628D16C6D89E8CE83E4C8 /* ActionSheetPicker.h in Headers */,
+				58CF9A606A3CE3F0CC0CA8A42C4C77E6 /* ActionSheetStringPicker.h in Headers */,
+				8C0467D6F35F276E1A62D7C28BD95E46 /* DistancePickerView.h in Headers */,
+				C95D091FC52554ECE223F92C4A5BCBF6 /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01612D7ABA0358E323A8827AE65EA26D /* Pods-FitnessPal-FitnessPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD82EF04CD9DA400152FE17D3C89D70 /* Build configuration list for PBXNativeTarget "Pods-FitnessPal-FitnessPalUITests" */;
+			buildPhases = (
+				C1FD3F9C07B210AF7AB0771711FF6E2F /* Headers */,
+				D9EBB3DA0401E0E44917DE6E5B11D3FF /* Sources */,
+				A0990B71B1B36B180C4CF634BB0B6B5C /* Frameworks */,
+				ECC629770C7C8B104ACF2C0C81FBBF84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18608A095AA5A2BC62B7903101D51EA8 /* PBXTargetDependency */,
+				4EA9450F35AAB49A6A55FD7F65016F03 /* PBXTargetDependency */,
+			);
+			name = "Pods-FitnessPal-FitnessPalUITests";
+			productName = "Pods-FitnessPal-FitnessPalUITests";
+			productReference = 1BE90164A690B6D8D2355D9963E8EC59 /* Pods_FitnessPal_FitnessPalUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50A4613BA081C4F47DEEC1F9B9176BA /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				09F7B7D04C454C16C0015640CF269F7E /* Headers */,
+				9C9FF78F6878BCE13B73B6BB5DD0A609 /* Sources */,
+				92A37A51219ED31062DE51A3E139BF37 /* Frameworks */,
+				1EA4E360633A1D5CC11F6E9C4EEC2475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		29718852DEA326A56295F65FA0002CC8 /* Pods-FitnessPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323DD5BD6F7707BBF0B5CEF500E2990F /* Build configuration list for PBXNativeTarget "Pods-FitnessPal" */;
+			buildPhases = (
+				3CBA6CF6A0B119BED887742E8FBFD299 /* Headers */,
+				E44AA476C691AAE8A2FC367EF2679A99 /* Sources */,
+				441E0FD5D26D3D2B2FD00C3C99ED7384 /* Frameworks */,
+				03D15D6C2BB10F52BE17EDFB84200E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BDB70DD4B7196A7A4EB6D0849C62C62 /* PBXTargetDependency */,
+				11D351383DCC479A92C99E90377F3F9F /* PBXTargetDependency */,
+			);
+			name = "Pods-FitnessPal";
+			productName = "Pods-FitnessPal";
+			productReference = E7992470149FAEB59F37CCBE0BE1115C /* Pods_FitnessPal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A07FF0ED33255C4A22115C3342BE853C /* Pods-FitnessPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EAB11D0FE4AF8A4901EB96C4EE9E8C4 /* Build configuration list for PBXNativeTarget "Pods-FitnessPalTests" */;
+			buildPhases = (
+				E809FFA56E46CFB0FDA42CDDBFF3D9F4 /* Headers */,
+				638B188BC2E77408514A721EB048F763 /* Sources */,
+				02EB327C437A2AC8315D7ECD370701A2 /* Frameworks */,
+				459EC7C7E9A1E37A53F9D41DDE837FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C55D33A484EA4CA0950B3EDA02A49C /* PBXTargetDependency */,
+			);
+			name = "Pods-FitnessPalTests";
+			productName = "Pods-FitnessPalTests";
+			productReference = 93A54227912DDCCEF75D46BFAA712E2E /* Pods_FitnessPalTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543AFABDB667AF073C3569847B1008C0 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */;
+			buildPhases = (
+				F797236E9943400DC9B18DA5F8395299 /* Headers */,
+				77D271DFD4264F58AC8B3DA2985D4C12 /* Sources */,
+				5CB46C5BAA16D47CA55D00459B31D084 /* Frameworks */,
+				0B560EB734A24D3FFC20F9A9D2AC0465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActionSheetPicker-3.0";
+			productName = "ActionSheetPicker-3.0";
+			productReference = D6E470A0C684D4FBC08BDF7A28A2A38B /* ActionSheetPicker_3_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1D2F2742D1F36ADFD91D4A4B98B5BC40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */,
+				29718852DEA326A56295F65FA0002CC8 /* Pods-FitnessPal */,
+				01612D7ABA0358E323A8827AE65EA26D /* Pods-FitnessPal-FitnessPalUITests */,
+				A07FF0ED33255C4A22115C3342BE853C /* Pods-FitnessPalTests */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D15D6C2BB10F52BE17EDFB84200E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B560EB734A24D3FFC20F9A9D2AC0465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EA4E360633A1D5CC11F6E9C4EEC2475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		459EC7C7E9A1E37A53F9D41DDE837FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC629770C7C8B104ACF2C0C81FBBF84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		638B188BC2E77408514A721EB048F763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18947A145498DC3BEE3E76B50B004001 /* Pods-FitnessPalTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D271DFD4264F58AC8B3DA2985D4C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7360CEDAB021006D16225352EFE233C3 /* AbstractActionSheetPicker.m in Sources */,
+				01E6FF9EF68F8F4DF9893A66DFD0FF00 /* ActionSheetCustomPicker.m in Sources */,
+				294871A7129CE743BB3A1A37A5909905 /* ActionSheetDatePicker.m in Sources */,
+				801C634F0F633E92BDDD77AEDC52E5AA /* ActionSheetDistancePicker.m in Sources */,
+				BD7FB260F9823A15C481A5B35C1636CC /* ActionSheetLocalePicker.m in Sources */,
+				01ED7401731A6D64E2EBDB0C9BA10D78 /* ActionSheetMultipleStringPicker.m in Sources */,
+				C31A1EC6B8C14C595A14E46A9C8A34DB /* ActionSheetPicker-3.0-dummy.m in Sources */,
+				2A4972C7ADE3DFAAE219A09318FC3F14 /* ActionSheetStringPicker.m in Sources */,
+				522FB484F79064A183754528ED787059 /* DistancePickerView.m in Sources */,
+				90B6F89879F8B4241403D3ED15BE2C46 /* SWActionSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9FF78F6878BCE13B73B6BB5DD0A609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC96F44279E61358242F26840D4853F0 /* Reachability.swift in Sources */,
+				E5F6ACACDF29D937A21E7DEC85A13E3E /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9EBB3DA0401E0E44917DE6E5B11D3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D02B64010EC36D3ED0D81529E21122 /* Pods-FitnessPal-FitnessPalUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44AA476C691AAE8A2FC367EF2679A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA85AFA551AD973548CFAAD442CBAE4 /* Pods-FitnessPal-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BDB70DD4B7196A7A4EB6D0849C62C62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionSheetPicker-3.0";
+			target = A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */;
+			targetProxy = 46D1AD233E9A8DC9D553D136E1F8DBBB /* PBXContainerItemProxy */;
+		};
+		11D351383DCC479A92C99E90377F3F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = B820C7828CC150A3D474BC547CF638B3 /* PBXContainerItemProxy */;
+		};
+		18608A095AA5A2BC62B7903101D51EA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionSheetPicker-3.0";
+			target = A43B25DDF20FCB9228471F8F5135C866 /* ActionSheetPicker-3.0 */;
+			targetProxy = CAC6F4AA11AF3FB83054D55F9E0472CC /* PBXContainerItemProxy */;
+		};
+		31C55D33A484EA4CA0950B3EDA02A49C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FitnessPal";
+			target = 29718852DEA326A56295F65FA0002CC8 /* Pods-FitnessPal */;
+			targetProxy = 58F09B5D455DB779FD97E8E9A989E04B /* PBXContainerItemProxy */;
+		};
+		4EA9450F35AAB49A6A55FD7F65016F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = B20D791D51DE594CC2D9CDDC204CB1AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1364B2F3DE235B63BA5AA275490E1C5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA1E64028ED3925DCA26DC147895737B /* Pods-FitnessPal.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FitnessPal/Pods-FitnessPal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitnessPal/Pods-FitnessPal.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E6300361487F1EBCE61D8A8BF4CEE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E01BB6AF957EC8B6ABFA26DD1BF85BB /* Pods-FitnessPal-FitnessPalUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FitnessPal-FitnessPalUITests/Pods-FitnessPal-FitnessPalUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitnessPal-FitnessPalUITests/Pods-FitnessPal-FitnessPalUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		622FA69C4C964324DB439FB5428F9886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86248738937DA0421FB1A0A642A83DF /* Pods-FitnessPalTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FitnessPalTests/Pods-FitnessPalTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitnessPalTests/Pods-FitnessPalTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9ABC4ECE4615A315434203338D663A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9928B16F9FC01E555FB8C2AABDA6A9 /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76221C1B7DCCBFDDA7E74367C32466CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2AC855173E83AB779902DAEA3F96F1F /* Pods-FitnessPal-FitnessPalUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FitnessPal-FitnessPalUITests/Pods-FitnessPal-FitnessPalUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitnessPal-FitnessPalUITests/Pods-FitnessPal-FitnessPalUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F45E8DB3C91C4FC98FABD5624A2F0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5CFC4F7A9AF071D220713AFD0AFE7D /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A445D08D964FE9C6C05CEE2B0A948973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B538BBD8D6CBDC662EBB5610D265E28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E392C8117D2D191595DEB283FF2EE54 /* ActionSheetPicker-3.0.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_MODULE_NAME = ActionSheetPicker_3_0;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C45C3BCFBE52001933354F3226274F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39BF2918D67B64553ECB0013084221A /* ActionSheetPicker-3.0.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				PRODUCT_MODULE_NAME = ActionSheetPicker_3_0;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB7376794D773187B6D048F04E70CE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F17DE63AE8791282526024D4B59B647E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A109A84174130C441D9D37F99A2D89 /* Pods-FitnessPalTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FitnessPalTests/Pods-FitnessPalTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitnessPalTests/Pods-FitnessPalTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDEF9F8408F1DF335DBEC3EFF59E5A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B8010231607FCEF9C5B1954D3560D0A /* Pods-FitnessPal.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FitnessPal/Pods-FitnessPal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FitnessPal/Pods-FitnessPal.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323DD5BD6F7707BBF0B5CEF500E2990F /* Build configuration list for PBXNativeTarget "Pods-FitnessPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1364B2F3DE235B63BA5AA275490E1C5F /* Debug */,
+				FDEF9F8408F1DF335DBEC3EFF59E5A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7376794D773187B6D048F04E70CE39 /* Debug */,
+				A445D08D964FE9C6C05CEE2B0A948973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543AFABDB667AF073C3569847B1008C0 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B538BBD8D6CBDC662EBB5610D265E28B /* Debug */,
+				C45C3BCFBE52001933354F3226274F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EAB11D0FE4AF8A4901EB96C4EE9E8C4 /* Build configuration list for PBXNativeTarget "Pods-FitnessPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17DE63AE8791282526024D4B59B647E /* Debug */,
+				622FA69C4C964324DB439FB5428F9886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD82EF04CD9DA400152FE17D3C89D70 /* Build configuration list for PBXNativeTarget "Pods-FitnessPal-FitnessPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6300361487F1EBCE61D8A8BF4CEE25 /* Debug */,
+				76221C1B7DCCBFDDA7E74367C32466CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50A4613BA081C4F47DEEC1F9B9176BA /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F45E8DB3C91C4FC98FABD5624A2F0E5 /* Debug */,
+				6F9ABC4ECE4615A315434203338D663A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -39,14 +39,17 @@ class AddWorkout: UIViewController {
         actionSheet?.show()
     }
     func perFormOperation() {
-        if "\(operation)" == "add" {
-            self.lblResult.text = "\(Int(textfield1.text!)!+Int(textfield2.text!)!)"
+           if let value1 = textfield1.text, let intvalue1 = Int(value1),let value2 = textfield2.text, let intvalue2 = Int(value2) {
+        if "\(operation)" == "add" { 
+            self.lblResult.text = "\(intvalue1+intvalue2)"
         }else  if "\(operation)" == "sub" {
-            self.lblResult.text = "\(9-9)"
+            self.lblResult.text = "\(intvalue1-intvalue2)"
         }else if "\(operation)" == "div"{
-            self.lblResult.text = "\(9/9)"
+            self.lblResult.text = "\(intvalue1*intvalue2)"
         }else if "\(operation)" == "mul"{
-            self.lblResult.text = "\(9*9)"
+             self.lblResult.text = "\(intvalue1/intvalue2)"
+            }
+           
         }
         
     }
